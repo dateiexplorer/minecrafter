@@ -27,6 +27,8 @@ The bot responds with private messages, e.g.
 
 ![](docs/images/example.png)
 
+The bot stops the server automatically if no users are on the server.
+
 ## Security
 
 The bot only accepts messages from guild members. Those members needs a role
