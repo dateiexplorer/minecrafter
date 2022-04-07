@@ -35,3 +35,29 @@ The bot only accepts messages from guild members. Those members needs a role
 called `miner` (case insensitive) to be allowed to execute commands.
 
 [pst]: https://github.com/dateiexplorer/paper-server-tools
+
+## Build
+
+Clone this repository with the following command:
+```sh
+git clone --recursive-submodules https://github.com/dateiexplorer/minecrafter
+```
+
+The `--recursive-submodules` flag ensures that the dependent
+`paper-server-tools` submodule is loaded.
+
+Alternatively you can add the submodules after cloning with the following two
+command:
+```sh
+git submodule init
+git submodule update
+```
+
+To build a `minecrafter` executable from the source code you'll need a working
+Go installation.
+Afterwards you can just type:
+```sh
+go build -o ./build/ ./...
+```
+
+This builds the `minecrafter` executable in a `build` directory.
