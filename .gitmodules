@@ -1,3 +1,3 @@
-[submodule "dependencies/paper-server-tools"]
-	path = dependencies/paper-server-tools
+[submodule "paper-server-tools"]
+	path = deps/paper-server-tools
 	url = https://github.com/dateiexplorer/paper-server-tools.git
